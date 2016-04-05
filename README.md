@@ -4,11 +4,11 @@ All I needed to do was to submit the information in their server through the for
 I just needed to know the number which represents a particular case type and then WHAM!!!<br>
 1 hr. of coding and a bit of searching the site and the work was done.
 
-<h1>How to use it:</h1>
+<h1>How to use it:</h1><br>
 Make sure you have root access in your PC and then type this in your terminal :- <br>
-<b>>>>python</b>
-<b>>>>from case_status import *</b>
-<b>>>>get_case_status(case_type,case_number,year)</b>
+<b>>>>python</b><br>
+<b>>>>from case_status import *</b><br>
+<b>>>>get_case_status(case_type,case_number,year)</b><br>
 And then just wait for a few seconds.. and you will have <br>
 <b>is_disposed</b>: this will display the information about the status of the case. If it is disposed(the case is closed) it will be true, otherwise false<br>
 <b>respondent</b>:respondent of the case<br>
