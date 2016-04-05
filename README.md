@@ -9,7 +9,7 @@ Make sure you have root access in your PC and then type this in your terminal :-
 <b>>>>python</b><br>
 <b>>>>from case_status import *</b><br>
 <b>>>>get_case_status(case_type,case_number,year)</b><br>
-And then just wait for a few seconds.. and you will have <br>
+And then just wait for a few seconds.. and you will get a dictionary containing <br>
 <b>is_disposed</b>: this will display the information about the status of the case. If it is disposed(the case is closed) it will be true, otherwise false<br>
 <b>respondent</b>:respondent of the case<br>
 <b>petitioner</b>:petitioner of the case<br>
