@@ -6,11 +6,11 @@ I just needed to know the number which represents a particular case type and the
 
 <h1>How to use it:</h1>
 Make sure you have root access in your PC and then type this in your terminal :- <br>
-<b>python</b>
->>><b>from case_status import *</b>
->>><b>get_case_status(case_type,case_number,year)</b>
-And then just wait for a few seconds.. and you will have 
-<b>is_disposed</b>: this will display the information about the status of the case. If it is disposed(the case is closed) it will be true, otherwise false
+<b>>>>python</b>
+<b>>>>from case_status import *</b>
+<b>>>>get_case_status(case_type,case_number,year)</b>
+And then just wait for a few seconds.. and you will have <br>
+<b>is_disposed</b>: this will display the information about the status of the case. If it is disposed(the case is closed) it will be true, otherwise false<br>
 <b>respondent</b>:respondent of the case<br>
 <b>petitioner</b>:petitioner of the case<br>
 <b>pet_advocate</b>:Advocate for petitioner<br>
