@@ -1,5 +1,5 @@
 Okay so I did this just as a part of my curiosity. I mean how cool it would be to know the status of your court case if you have any. <br
-I went through the official website of Indian Court Cases i.e <b>courtnic.nic.in</b> and saw that it pretty easy to extract the data out of it.<br>
+I went through the official website of Indian Court Cases i.e <b>courtnic.nic.in</b> and saw that it's pretty easy to extract the data out of it.<br>
 All I needed to do was to submit the information in their server through the form they provided and get the data out of it.
 I just needed to know the number which represents a particular case type and then WHAM!!!<br>
 1 hr. of coding and a bit of searching the site and the work was done.
