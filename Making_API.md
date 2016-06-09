@@ -14,7 +14,7 @@ This documentation will show how to make an API for a database. I follow these s
 ```
 pip insall djangorestframework markdown django-filter
 ```
-    this will install **DRF** in your environment. **Markdown** and **Django-filter** will used for markdown and filtering support.
+this will install **DRF** in your environment. **Markdown** and **Django-filter** will used for markdown and filtering support.
 
 **2.) Making Serializers.py :**
    * Go to the directory where you have your *models.py* and make new python file named **serializers.py**
@@ -38,12 +38,11 @@ class Meta:
     'first_name'
     )
 ```
-         
 That is it for the *serializers.py*.
 
 **3.) Making api.py :**
-   * In the same directory where you made the *serializers.py* make a new file **api.py**
-   * So it will look something like:
+  * In the same directory where you made the *serializers.py* make a new file **api.py**
+  * So it will look something like:
 
 ```python
 from models import Profile
@@ -78,7 +77,7 @@ class profile_detail(APIView):
       serialized_profile = profile_serializer(profile)
       return Response(serialized_profile.data)
 ```
-    And we are done with the *api.py*
+And we are done with the *api.py*
 
 **4.) Final configurations :**
    * Go to *settings.py* and add ```rest_framework``` in ```INSTALLED_APPS```
