@@ -83,26 +83,26 @@ This documentation will show how to make an API for a database. I follow these s
     * Go to *settings.py* and add 'rest_framework' in **INSTALLED_APPS**\n
     * Go to *urls.py* and add the two lines:
 
-    ```py
-    from rest_framework.urlpatterns import format_suffix_patterns
-    # Here profile is the folder name
-    from profile import api
+```py
+from rest_framework.urlpatterns import format_suffix_patterns
+# Here profile is the folder name
+from profile import api
 
-    # Add the required urls
-    urlpatterns = (
+# Add the required urls
+urlpatterns = (
 
-    # Previous urls ^
+# Previous urls ^
 
-    # API part
-    url(r'^api/profiles', api.profile_list.as_view()),
-    url(r'^api/profiles/(?P<pk>[0-9]+)/$', api.profile_detail.as_view()),
-    #                   (^^^^^^^^^^^^^^^)
-    # The weird part is just a regex to match for primary key (id in this case) values
-    # You can see more about regex at [re](https://docs.python.org/2/library/re.html)
-    )
+# API part
+url(r'^api/profiles', api.profile_list.as_view()),
+url(r'^api/profiles/(?P<pk>[0-9]+)/$', api.profile_detail.as_view()),
+#                   (^^^^^^^^^^^^^^^)
+# The weird part is just a regex to match for primary key (id in this case) values
+# You can see more about regex at [re](https://docs.python.org/2/library/re.html)
+)
 
-    urlpatterns = format_suffix_patterns(urlpatterns)
-    ```
+urlpatterns = format_suffix_patterns(urlpatterns)
+```
 
 
 So that is what you need to do to create a *simple, sweet, your own* API
